@@ -1,0 +1,93 @@
+Handson lab:
+
+1) Share the storage between 3 ec2 machines in different AZ but in same region .(use efs)
+
+2) Try sharing the storage between 2 ec2 machines in different regions. is it possible
+
+3) Create 2 ec2 machines with different security groups -> now create a EFS where file should be shared between both of these machines
+
+4) Create 2 ec2 machines - 1 linux and another ubuntu . Now share the EFS between these two machines. Can you do that?
+
+5) Create an IAM user - tejas and given him the ec2 full access. and access the tejas account to see if he can access s3 bucket or not?
+
+6) now from root account remove ec2 full access from tejas account and add s3 full access. what change you observe?
+
+7) How to reset and chnage the password of tejas account from the root account
+
+8) Change the tejas policy to administrative access and see if tejas has all the access or not?
+
+9) now create a group with Ec2-fullaccess and add tejas into that 
+
+10) Now tejas has ec2-fullaccess from group and administrative access from users . Check in tejas account which policy is given priority?
+
+11) how to remove the password change policy in tejas account?
+
+12) Create 2 groups (s3 full access and ec2-full access) and add tejas in that
+?
+
+13)Lab: create a windows machine which when shutdown should automatically terminate
+
+14) Lab: create a windows machine which when terminate should give a warning message (termination protection)
+
+15) launch a website in windows machine
+
+16) enable autoscaling in windows machine
+
+17) create two machines with 2 different websites and enable network load balancer in that?
+
+18) what is load balancer and how many types of load balancers are there?
+
+19)what is the snapshot?
+
+20) Lab: copy the snapshot in other region 
+
+21) Lab: Can you access your windows machine without keypair.
+
+22) What are different types of storage available in AWS? 
+
+23) what is difference between EBS and instance storage?
+
+24) What is difference between S3 and EBS?
+
+25) What IAAS, PAAS, SAAS ?
+
+26) What is difference between Cloud and Onprem servers?
+
+27) what are various types of EBS?
+
+28) Differnce between SSD and HDD?
+
+29) What happens when : 
+
+a) Create bucket ->Enable versioning -> suspend versioning -> upload a object -> delete the object -> can you bring the object back?
+b) Create bucket -> enable versioning -> upload object (file1) -> suspend versioning -> upload object (file2) -> delete file 2 -> can you bring the 
+file2 back?
+c) Create bucket -> enable versioning -> upload object (file1) -> suspend versioning -> upload object (file2) -> delete file 1 -> can you bring the 
+file1 back?
+d) Create bucket -> upload object (file1) -> enable versioning -> upload object (file2) -> delete file1 -> can you bring the file1 back?
+e) Create bucket -> upload object (file1) -> enable versioning -> upload object (file2) -> delete file2 -> can you bring file2 back?
+f) Create bucket  -> upload object (file1) -> enable versiong -> upload object (file2) -> Suspend versioning -> Delete file1 -> Can you bring file1 back??
+g) Create bucket  -> upload object (file1) -> enable versiong -> upload object (file2) -> Suspend versioning -> Delete file2 -> Can you bring file2 back??
+h) Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file 1->can you bring back file1
+i)Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file2->can you bring back file2
+j) Create bucket -> Enable versioning -> upload object (file1) -> suspend versioning -> upload file2 -> Enable versioning -> upload file 3 
+-> suspend versionnig-> delete file3->can you bring back file3
+
+
+30) Create RDP server (rds database)
+
+31) what is multi az in rdp server?
+
+32) what is relational and non relational database?
+
+33) Watch the video on VPC : https://www.youtube.com/watch?v=XlfnvTqeVug
+
+34) Watch the video and implement : https://www.youtube.com/watch?v=ziY8U8nssqA
+
+
+35) What is different between ondemand , reserved and spot instances ? (important for exam)
+(Ans: https://docs.google.com/presentation/d/1OdR6ADuVVTTxs9xRxW_Td89d7iEp87ke/edit?usp=sharing&ouid=103157204066713600014&rtpof=true&sd=true)
+ 
+ 
