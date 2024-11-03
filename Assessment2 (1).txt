@@ -1,5 +1,7 @@
 Handson lab:
 
+https://drive.google.com/drive/folders/1HV_jS-4dGdau24DEQR7bEdRkAImmDbhB
+
 1) Share the storage between 3 ec2 machines in different AZ but in same region .(use efs)
 
 2) Try sharing the storage between 2 ec2 machines in different regions. is it possible
